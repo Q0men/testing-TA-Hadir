@@ -1,6 +1,5 @@
 package com.juaracoding.testing.definitions;
 
-import org.checkerframework.checker.units.qual.t;
 import org.testng.Assert;
 
 import com.juaracoding.testing.context.DriverContext;
