@@ -1,2 +1,3 @@
+com\juaracoding\testing\pages\Dashboard.class
 com\juaracoding\testing\models\User.class
 com\juaracoding\testing\pages\LoginPage.class
