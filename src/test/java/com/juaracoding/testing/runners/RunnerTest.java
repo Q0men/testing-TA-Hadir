@@ -6,8 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
- features = {"src/test/resources/features/test1-login.feature",
-             "src/test/resources/features/test2-logut.feature"},
+ features = {"src/test/resources/features/test1-mananagement.feature"},
 
  glue = {"com.juaracoding.testing.definitions", 
         "com.juaracoding.testing.hooks"},

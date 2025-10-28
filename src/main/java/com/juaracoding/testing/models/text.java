@@ -1,8 +1,9 @@
 package com.juaracoding.testing.models;
 
-public class User {
+public class text {
     private String username;
     private String password;
+    private String user;
 
     // public User(String username, String password) {
     //     this.username = username;
@@ -23,5 +24,13 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public String getUser() {
+        return user;
     }
 }
