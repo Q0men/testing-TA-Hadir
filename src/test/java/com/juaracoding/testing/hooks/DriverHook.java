@@ -3,7 +3,7 @@ package com.juaracoding.testing.hooks;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.juaracoding.testing.context.DriverContext;
-import com.juaracoding.testing.models.User;
+import com.juaracoding.testing.models.text;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -13,9 +13,10 @@ public class DriverHook {
 
     public DriverHook(DriverContext driverContext) {
         this.driverContext = driverContext;
-        this.driverContext.user = new User();
-        this.driverContext.user.setUsername("admin@hadir.com");
-        this.driverContext.user.setPassword("MagangSQA_JC@123");
+        this.driverContext.text = new text();
+        this.driverContext.text.setUsername("admin@hadir.com");
+        this.driverContext.text.setPassword("MagangSQA_JC@123");
+        this.driverContext.text.setUser("admin meeting");
     }
 
     @Before

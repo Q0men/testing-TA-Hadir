@@ -1,3 +1,4 @@
-com\juaracoding\testing\pages\Dashboard.class
-com\juaracoding\testing\models\User.class
+com\juaracoding\testing\pages\UserPage.class
+com\juaracoding\testing\models\text.class
+com\juaracoding\testing\pages\DashboardPage.class
 com\juaracoding\testing\pages\LoginPage.class
