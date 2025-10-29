@@ -1,47 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 106.5 s <<< FAILURE! -- in TestSuite
-com.juaracoding.testing.runners.RunnerTest.runScenario["Mencari User yang tidak ada di halaman Management User", "Mencari User di Halaman Management User"](2) -- Time elapsed: 17.42 s <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 173.0 s <<< FAILURE! -- in TestSuite
+com.juaracoding.testing.runners.RunnerTest.runScenario["Memfilter user berdasarkan role di halaman Management User", "Test tombol pada halaman Management User"](6) -- Time elapsed: 30.19 s <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //*[@class='MuiTypography-root MuiTypography-body1 css-1ub5lza' and normalize-space(.)='Management']
+Unable to locate element: //*[normalize-space(.)='Dark Tomcat']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a56069c2-54b9-439b-9b2f-c33feaa5d25d, findElement {value=//*[@class='MuiTypography-root MuiTypography-body1 css-1ub5lza' and normalize-space(.)='Management'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16488, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: a56069c2-54b9-439b-9b2f-c33feaa5d25d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.juaracoding.testing.pages.DashboardPage.managementButtonBy(DashboardPage.java:24)
-	at com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user(ButtonTest.java:36)
-	at ✽.Admin sudah berada di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/test1-management.feature:15)
-
-com.juaracoding.testing.runners.RunnerTest.runScenario["Memfilter user berdasarkan role di halaman Management User", "Mencari User di Halaman Management User"](4) -- Time elapsed: 30.92 s <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //*[normalize-space(.)='Tes123456']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [9621bc58-053d-4f5f-90e3-df710c7793ba, findElement {value=//*[normalize-space(.)='Tes123456'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15800, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 9621bc58-053d-4f5f-90e3-df710c7793ba
+Command: [7048bae5-2a22-451e-b3e9-30c5e4217f65, findElement {value=//*[normalize-space(.)='Dark Tomcat'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)

@@ -5,7 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.BeforeClass;
 
 @CucumberOptions(
- features = {"src/test/resources/features/test1-management.feature"},
+ features = {"src/test/resources/features/LoginLogout.feature",
+            "src/test/resources/features/ManagementUser.feature",},
 
  glue = {"com.juaracoding.testing.definitions", 
         "com.juaracoding.testing.hooks"},

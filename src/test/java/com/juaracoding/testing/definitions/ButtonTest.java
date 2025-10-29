@@ -87,7 +87,7 @@ public void admin_menekan_tombol_role() {
 @And("Admin mengisi kolom pencarian dengan data user sesuai role yang dipilih")
 public void admin_mengisi_kolom_pencarian_dengan_data_user_sesuai_role_yang_dipilih() throws InterruptedException {
     Thread.sleep(2000);
-    userPage.searchBy("Dark Tomcat");
+    userPage.searchBy("123456");
 }
 @Then("Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User")
 public void sistem_menampikan_data_sesuai_role() throws InterruptedException {

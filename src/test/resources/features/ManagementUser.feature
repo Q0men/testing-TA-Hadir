@@ -1,5 +1,5 @@
-@Testtombol
-Feature: Test tombol pada halaman Management User
+@SmokeTest
+Feature: Managmenent User feature untuk admin.
 
 @positiveSearch
 @mencariuser
