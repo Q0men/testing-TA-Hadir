@@ -16,7 +16,7 @@ public class DriverHook {
         this.driverContext.text = new text();
         this.driverContext.text.setUsername("admin@hadir.com");
         this.driverContext.text.setPassword("MagangSQA_JC@123");
-        this.driverContext.text.setUser("admin");
+        this.driverContext.text.setUser("admin meeting");
     }
 
     @Before

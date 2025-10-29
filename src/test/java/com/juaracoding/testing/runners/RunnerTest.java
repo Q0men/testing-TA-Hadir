@@ -1,17 +1,16 @@
 package com.juaracoding.testing.runners;
 
-import org.testng.annotations.BeforeClass;
-
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.BeforeClass;
 
 @CucumberOptions(
- features = {"src/test/resources/features/test1-mananagement.feature"},
+ features = {"src/test/resources/features/test1-management.feature"},
 
  glue = {"com.juaracoding.testing.definitions", 
         "com.juaracoding.testing.hooks"},
 
- plugin = {"pretty", "html:target/cucumber-reports.html"})
+ plugin = {"pretty", "html:target/cucumber-reports.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 
 public class RunnerTest extends AbstractTestNGCucumberTests {
 
