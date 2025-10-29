@@ -20,6 +20,8 @@ private DriverContext driverContext;
         dashboard = new Dashboard(this.driverContext.driver);
     }
 
+    // skenario Logout
+
     @Given("Pengguna telah login dengan kredensial valid.")
     public void penggunaTelahLoginDenganKredensialValid() {
         driverContext.driver.get("https://magang.dikahadir.com/authentication/login");
