@@ -50,7 +50,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Oct 29, 2025 04:25:46 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Oct 30, 2025 12:03:22 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -65,8 +65,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -78,19 +77,23 @@
 				<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@negativeSearch</a></li>
-					<li><a href='#'>@buttonreset</a></li>
-					<li><a href='#'>@SmokeTest</a></li>
-					<li><a href='#'>@buttonrole</a></li>
-					<li><a href='#'>@Negativetest</a></li>
-					<li><a href='#'>@Testtombol</a></li>
-					<li><a href='#'>@Auth</a></li>
-					<li><a href='#'>@resetpencarianuser</a></li>
-					<li><a href='#'>@positiveSearch</a></li>
-					<li><a href='#'>@filterberdasarkanrole</a></li>
+					<li><a href='#'>@filterSearch</a></li>
+					<li><a href='#'>@buttonfilter</a></li>
+					<li><a href='#'>@logoutdarihalamanmanagementuser</a></li>
 					<li><a href='#'>@tidakmencariuser</a></li>
-					<li><a href='#'>@PositiveTest</a></li>
+					<li><a href='#'>@filterberdasarkanfilterdanmencariuser</a></li>
+					<li><a href='#'>@buttonreset</a></li>
+					<li><a href='#'>@positiveSearch</a></li>
+					<li><a href='#'>@buttonlogout</a></li>
+					<li><a href='#'>@SmokeTest</a></li>
+					<li><a href='#'>@negativeSearch</a></li>
+					<li><a href='#'>@filterberdasarkanunit</a></li>
+					<li><a href='#'>@buttonrole</a></li>
+					<li><a href='#'>@filter</a></li>
+					<li><a href='#'>@resetpencarianuser</a></li>
+					<li><a href='#'>@comboboxunit</a></li>
 					<li><a href='#'>@mencariuser</a></li>
+					<li><a href='#'>@filterberdasarkanrole</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -132,11 +135,11 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='$66%'>
-                    <span class='strong'>2</span> features passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='$0%'>
+                    <span class='strong'>0</span> features passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='33%'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>
                     1</span> features failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped
@@ -150,12 +153,12 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='85%'>
+                    <span class='tooltipped' data-position='top' data-tooltip='75%'>
                     <span class='strong'>6</span> scenarios passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='14%'>
-                    1</span> scenarios failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='25%'>
+                    2</span> scenarios failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -170,12 +173,12 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='96%'>
-                    <span class='strong'>27</span> steps passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='93%'>
+                    <span class='strong'>30</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='3%'>
-                    1</span> steps failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='6%'>
+                    2</span> steps failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -198,11 +201,11 @@
 	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>login feature untuk pengguna terdaftar dan pendaftaran akun baru.</span>
-						<span class='test-time'>Oct 29, 2025 04:25:47 PM</span>
-						<span class='test-status right pass'>Pass</span>
+						<span class='test-name'>Managmenent User feature untuk admin.</span>
+						<span class='test-time'>Oct 30, 2025 12:03:23 AM</span>
+						<span class='test-status right fail'>Fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -214,35 +217,36 @@
 
 <div class='scenario node' test-id='2' status='pass'>
 
-	<span class='duration right label'>00 00 18.485</span>
+	<span class='duration right label'>00 00 27.152</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Memverifikasi pengguna terdaftar dapat berhasil login dengan kredensial valid.</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Mencari User yang ada di halaman Management User</div>
 	</div>
 	
 	
 		<div class='category-list'>
-				<span class='category label'>@PositiveTest</span>
-				<span class='category label'>@Auth</span>
+				<span class='category label'>@SmokeTest</span>
+				<span class='category label'>@mencariuser</span>
+				<span class='category label'>@positiveSearch</span>
 		</div>
 	
 	<ul class='steps'>
 		<li test-id='4' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.Login.bukahalamanutama())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Buka halaman utama.</div>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Admin sudah berada di halaman Management User</div>
 
 
 		</li>
 		<li test-id='5' class='node when Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.Login.masukkanEmailDanPasswordValid())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Masukkan email dan password yang valid.</div>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_klik_role_button())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin memasukkan data user pada kolom pencarian</div>
 
 
 		</li>
 		<li test-id='6' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.Login.klikTombolLogin())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Klik tombol 'Login'.</div>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_menekan_tombol_search())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin menekan tombol Search</div>
 
 
 		</li>
 		<li test-id='7' class='node then Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.Login.penggunaBerhasilLogin())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Pengguna berhasil login dan diarahkan ke dashboard.</div>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Sistem_menampilkan_data_user_yang_dicari_pada_tabel_di_halaman_management_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem menampilkan data user yang dicari pada tabel di halaman Management User</div>
 
 
 		</li>
@@ -250,115 +254,105 @@
 </div>
 <div class='scenario node' test-id='9' status='pass'>
 
-	<span class='duration right label'>00 00 15.547</span>
-	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Memverifikasi pesan kesalahan muncul saat pengguna memasukkan kredensial tidak valid.</div>
-	</div>
-	
-	
-		<div class='category-list'>
-				<span class='category label'>@Auth</span>
-				<span class='category label'>@Negativetest</span>
-		</div>
-	
-	<ul class='steps'>
-		<li test-id='11' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.Login.bukahalamanutama())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Buka halaman utama.</div>
-
-
-		</li>
-		<li test-id='12' class='node when Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.Login.masukkanEmailAtauPasswordTidakValid())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Masukkan email atau password yang tidak valid.</div>
-
-
-		</li>
-		<li test-id='13' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.Login.klikTombolLogin())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Klik tombol 'Login'.</div>
-
-
-		</li>
-		<li test-id='14' class='node then Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.Login.pesanKesalahanDitampilkan())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Pesan kesalahan 'Kredensial tidak valid' ditampilkan.</div>
-
-
-		</li>
-	</ul>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='16'>
-					<div class='test-heading'>
-						<span class='test-name'>Test tombol pada halaman Management User</span>
-						<span class='test-time'>Oct 29, 2025 04:26:21 PM</span>
-						<span class='test-status right fail'>Fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class="sr-filters bdd-filters">
-	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
-	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
-	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
-	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
-</div>
-
-<div class='scenario node' test-id='17' status='pass'>
-
-	<span class='duration right label'>00 00 27.580</span>
-	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Mencari User yang ada di halaman Management User</div>
-	</div>
-	
-	
-		<div class='category-list'>
-				<span class='category label'>@mencariuser</span>
-				<span class='category label'>@positiveSearch</span>
-				<span class='category label'>@Testtombol</span>
-		</div>
-	
-	<ul class='steps'>
-		<li test-id='19' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Admin sudah berada di halaman Management User</div>
-
-
-		</li>
-		<li test-id='20' class='node when Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_klik_role_button())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin memasukkan data user pada kolom pencarian</div>
-
-
-		</li>
-		<li test-id='21' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_menekan_tombol_search())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin menekan tombol Search</div>
-
-
-		</li>
-		<li test-id='22' class='node then Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Sistem_menampilkan_data_user_yang_dicari_pada_tabel_di_halaman_management_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem menampilkan data user yang dicari pada tabel di halaman Management User</div>
-
-
-		</li>
-	</ul>
-</div>
-<div class='scenario node' test-id='24' status='pass'>
-
-	<span class='duration right label'>00 00 27.506</span>
+	<span class='duration right label'>00 00 27.530</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Mencari User yang tidak ada di halaman Management User</div>
 	</div>
 	
 	
 		<div class='category-list'>
+				<span class='category label'>@SmokeTest</span>
 				<span class='category label'>@tidakmencariuser</span>
-				<span class='category label'>@Testtombol</span>
 				<span class='category label'>@negativeSearch</span>
 		</div>
 	
 	<ul class='steps'>
-		<li test-id='26' class='node given Pass' status='Pass'>
+		<li test-id='11' class='node given Pass' status='Pass'>
 			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Admin sudah berada di halaman Management User</div>
 
 
 		</li>
-		<li test-id='27' class='node when Pass' status='Pass'>
+		<li test-id='12' class='node when Pass' status='Pass'>
 			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_memasukkan_data_user_yang_tidak_terdaftar_pada_kolom_pencarian())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin memasukkan data user yang tidak terdaftar pada kolom pencarian</div>
+
+
+		</li>
+		<li test-id='13' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_menekan_tombol_search())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin menekan tombol Search</div>
+
+
+		</li>
+		<li test-id='14' class='node then Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_bahwa_data_user_tidak_ditemukan_pada_halaman_management_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem menampilkan informasi bahwa data user tidak ditemukan pada halaman Management User</div>
+
+
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='16' status='pass'>
+
+	<span class='duration right label'>00 00 28.071</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Mereset kolom pencarian di halaman Management User</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@SmokeTest</span>
+				<span class='category label'>@buttonreset</span>
+				<span class='category label'>@resetpencarianuser</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='18' class='node given Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Admin sudah berada di halaman Management User</div>
+
+
+		</li>
+		<li test-id='19' class='node when Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_klik_role_button())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin memasukkan data user pada kolom pencarian</div>
+
+
+		</li>
+		<li test-id='20' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_menekan_tombol_reset())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin menekan tombol Reset</div>
+
+
+		</li>
+		<li test-id='21' class='node then Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.kolom_search_kosong())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem mengosongkan kolom pencarian dan menampilkan semua data user pada tabel di halaman Management User</div>
+
+
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='23' status='pass'>
+
+	<span class='duration right label'>00 00 30.393</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Memfilter user berdasarkan role di halaman Management User</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@SmokeTest</span>
+				<span class='category label'>@filterberdasarkanrole</span>
+				<span class='category label'>@buttonrole</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='25' class='node given Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Admin sudah berada di halaman Management User</div>
+
+
+		</li>
+		<li test-id='26' class='node when Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_menekan_tombol_role())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin menekan tombol Role dan memilih role yang diinginkan</div>
+
+
+		</li>
+		<li test-id='27' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_mengisi_kolom_pencarian_dengan_data_user_sesuai_role_yang_dipilih())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin mengisi kolom pencarian dengan data user sesuai role yang dipilih</div>
 
 
 		</li>
@@ -368,7 +362,7 @@
 
 		</li>
 		<li test-id='29' class='node then Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_bahwa_data_user_tidak_ditemukan_pada_halaman_management_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem menampilkan informasi bahwa data user tidak ditemukan pada halaman Management User</div>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_role())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User</div>
 
 
 		</li>
@@ -376,16 +370,16 @@
 </div>
 <div class='scenario node' test-id='31' status='pass'>
 
-	<span class='duration right label'>00 00 25.564</span>
+	<span class='duration right label'>00 00 35.422</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Mereset kolom pencarian di halaman Management User</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Logout dari halaman Management User</div>
 	</div>
 	
 	
 		<div class='category-list'>
-				<span class='category label'>@buttonreset</span>
-				<span class='category label'>@Testtombol</span>
-				<span class='category label'>@resetpencarianuser</span>
+				<span class='category label'>@SmokeTest</span>
+				<span class='category label'>@logoutdarihalamanmanagementuser</span>
+				<span class='category label'>@buttonlogout</span>
 		</div>
 	
 	<ul class='steps'>
@@ -395,69 +389,54 @@
 
 		</li>
 		<li test-id='34' class='node when Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_klik_role_button())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin memasukkan data user pada kolom pencarian</div>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_menekan_tombol_logout())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin menekan tombol Logout</div>
 
 
 		</li>
-		<li test-id='35' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_menekan_tombol_reset())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin menekan tombol Reset</div>
-
-
-		</li>
-		<li test-id='36' class='node then Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.kolom_search_kosong())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem mengosongkan kolom pencarian dan menampilkan semua data user pada tabel di halaman Management User</div>
+		<li test-id='35' class='node then Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_berhasil_logout_dan_diarahkan_ke_halaman_utama())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem mengarahkan Admin ke halaman Login</div>
 
 
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='38' status='fail'>
+<div class='scenario node' test-id='37' status='fail'>
 
-	<span class='duration right label'>00 00 30.183</span>
+	<span class='duration right label'>00 00 27.640</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Memfilter user berdasarkan role di halaman Management User</div>
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Mengakses fitur filter di halaman Management User</div>
 	</div>
 	
 	
 		<div class='category-list'>
-				<span class='category label'>@filterberdasarkanrole</span>
-				<span class='category label'>@Testtombol</span>
-				<span class='category label'>@buttonrole</span>
+				<span class='category label'>@SmokeTest</span>
+				<span class='category label'>@filter</span>
+				<span class='category label'>@buttonfilter</span>
 		</div>
 	
 	<ul class='steps'>
-		<li test-id='40' class='node given Pass' status='Pass'>
+		<li test-id='39' class='node given Pass' status='Pass'>
 			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Admin sudah berada di halaman Management User</div>
 
 
 		</li>
-		<li test-id='41' class='node when Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_menekan_tombol_role())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin menekan tombol Role dan memilih role yang diinginkan</div>
+		<li test-id='40' class='node when Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_menekan_tombol_filter())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin menekan tombol Filter</div>
 
 
 		</li>
-		<li test-id='42' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_mengisi_kolom_pencarian_dengan_data_user_sesuai_role_yang_dipilih())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin mengisi kolom pencarian dengan data user sesuai role yang dipilih</div>
+		<li test-id='41' class='node then Fail' status='Fail'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_Kelompok())"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User</div>
 
 
-		</li>
-		<li test-id='43' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_menekan_tombol_search())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin menekan tombol Search</div>
-
-
-		</li>
-		<li test-id='44' class='node then Fail' status='Fail'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_role())"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User</div>
-
-
-					<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)='Dark Tomcat']
+					<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='mui-2'and text()]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7048bae5-2a22-451e-b3e9-30c5e4217f65, findElement {value=//*[normalize-space(.)='Dark Tomcat'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
+Command: [adfc838e-b7f8-4d9f-b046-e847e6cbd96a, findElement {value=//*[@id='mui-2'and text()], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: adfc838e-b7f8-4d9f-b046-e847e6cbd96a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -474,56 +453,115 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_role(ButtonTest.java:95)
-	at ?.Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/test1-management.feature:35)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_Kelompok(ButtonTest.java:130)
+	at ?.Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:49)
 </textarea>
 		</li>
 	</ul>
 </div>
-					</div>
-				</li>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='46'>
-					<div class='test-heading'>
-						<span class='test-name'>logout feature untuk pengguna terdaftar.</span>
-						<span class='test-time'>Oct 29, 2025 04:28:12 PM</span>
-						<span class='test-status right pass'>Pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class="sr-filters bdd-filters">
-	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
-	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
-	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
-	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
-</div>
+<div class='scenario node' test-id='43' status='pass'>
 
-<div class='scenario node' test-id='47' status='pass'>
-
-	<span class='duration right label'>00 00 25.305</span>
+	<span class='duration right label'>00 00 31.225</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Memverifikasi pengguna terdaftar dapat berhasil logout dari aplikasi.</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Memfilter user berdasarkan unit di halaman Management User (contoh : Unit = Jakarta )</div>
 	</div>
 	
 	
 		<div class='category-list'>
 				<span class='category label'>@SmokeTest</span>
-				<span class='category label'>@PositiveTest</span>
+				<span class='category label'>@filterberdasarkanunit</span>
+				<span class='category label'>@comboboxunit</span>
 		</div>
 	
 	<ul class='steps'>
-		<li test-id='49' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.logout.penggunaTelahLoginDenganKredensialValid())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Pengguna telah login dengan kredensial valid.</div>
+		<li test-id='45' class='node given Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Admin sudah berada di halaman Management User</div>
 
 
 		</li>
-		<li test-id='50' class='node when Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.logout.klikTombolLogout())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Klik tombol 'Logout'.</div>
+		<li test-id='46' class='node when Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_menekan_tombol_unit())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin menekan tombol filter dan memilih unit</div>
 
 
 		</li>
-		<li test-id='51' class='node then Pass' status='Pass'>
-			<div class="step-name" title="(com.juaracoding.testing.definitions.logout.penggunaBerhasilLogoutDanDiarahkanKeHalamanUtama())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Pengguna berhasil logout dan diarahkan ke halaman utama.</div>
+		<li test-id='47' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_memilih_unit_pada())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin memilih Unit</div>
 
 
+		</li>
+		<li test-id='48' class='node then Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_unit_yang_dipilih())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then Sistem menampilkan Unit pada combobox sesuai dengan unit yang dipilih</div>
+
+
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='50' status='fail'>
+
+	<span class='duration right label'>00 00 36.954</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Memfilter user berdasarkan filter di halaman Management User (contoh : Tipe Karyawan = Mitra )</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@SmokeTest</span>
+				<span class='category label'>@filterSearch</span>
+				<span class='category label'>@filterberdasarkanfilterdanmencariuser</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='52' class='node given Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_sudah_berada_di_halaman_user())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given Admin sudah berada di halaman Management User</div>
+
+
+		</li>
+		<li test-id='53' class='node when Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_menekan_tombol_filter1())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When Admin menekan tombol filter dan memilih filter</div>
+
+
+		</li>
+		<li test-id='54' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.admin_mengisi_kolom_pencarian_dengan_data_user_sesuai_kelompok_yang_dipilih())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin mengisi kolom pencarian dengan data user sesuai filter yang dipilih</div>
+
+
+		</li>
+		<li test-id='55' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.Admin_menekan_tombol_search())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Admin menekan tombol Search</div>
+
+
+		</li>
+		<li test-id='56' class='node then Fail' status='Fail'>
+			<div class="step-name" title="(com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_kelompok())"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then Sistem menampilkan data user sesuai dengan filter yang dipilih pada tabel di halaman Management User</div>
+
+
+					<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)='123']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb, findElement {value=//*[normalize-space(.)='123'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28312, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_kelompok(ButtonTest.java:179)
+	at ?.Sistem menampilkan data user sesuai dengan filter yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:66)
+</textarea>
 		</li>
 	</ul>
 </div>
@@ -571,7 +609,73 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 			<ul id='category-collection' class='category-collection'>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@negativeSearch</span>
+						<span class='category-name'>@filterSearch</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:06:51 AM</td>
+										<td class='linked' test-id='50'>Memfilter user berdasarkan filter di halaman Management User (contoh : Tipe Karyawan = Mitra )</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@buttonfilter</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:05:52 AM</td>
+										<td class='linked' test-id='37'>Mengakses fitur filter di halaman Management User</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@logoutdarihalamanmanagementuser</span>
 						<span class='category-status right'>
 						<span class='label pass'>1</span>
 						</span>
@@ -593,9 +697,75 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 29, 2025 04:26:48 PM</td>
-										<td class='linked' test-id='24'>Mencari User yang tidak ada di halaman Management User</td>
+										<td>Oct 30, 2025 12:05:16 AM</td>
+										<td class='linked' test-id='31'>Logout dari halaman Management User</td>
 										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tidakmencariuser</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:03:50 AM</td>
+										<td class='linked' test-id='9'>Mencari User yang tidak ada di halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@filterberdasarkanfilterdanmencariuser</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:06:51 AM</td>
+										<td class='linked' test-id='50'>Memfilter user berdasarkan filter di halaman Management User (contoh : Tipe Karyawan = Mitra )</td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -626,227 +796,8 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 29, 2025 04:27:16 PM</td>
-										<td class='linked' test-id='31'>Mereset kolom pencarian di halaman Management User</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@SmokeTest</span>
-						<span class='category-status right'>
-						<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Oct 29, 2025 04:28:12 PM</td>
-										<td class='linked' test-id='47'>Memverifikasi pengguna terdaftar dapat berhasil logout dari aplikasi.</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@buttonrole</span>
-						<span class='category-status right'>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Oct 29, 2025 04:27:42 PM</td>
-										<td class='linked' test-id='38'>Memfilter user berdasarkan role di halaman Management User</td>
-										<td><span class='test-status Fail'>Fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@Negativetest</span>
-						<span class='category-status right'>
-						<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Oct 29, 2025 04:26:05 PM</td>
-										<td class='linked' test-id='9'>Memverifikasi pesan kesalahan muncul saat pengguna memasukkan kredensial tidak valid.</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@Testtombol</span>
-						<span class='category-status right'>
-						<span class='label pass'>3</span>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 3</span>
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Oct 29, 2025 04:26:21 PM</td>
-										<td class='linked' test-id='17'>Mencari User yang ada di halaman Management User</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 29, 2025 04:26:48 PM</td>
-										<td class='linked' test-id='24'>Mencari User yang tidak ada di halaman Management User</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 29, 2025 04:27:16 PM</td>
-										<td class='linked' test-id='31'>Mereset kolom pencarian di halaman Management User</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 29, 2025 04:27:42 PM</td>
-										<td class='linked' test-id='38'>Memfilter user berdasarkan role di halaman Management User</td>
-										<td><span class='test-status Fail'>Fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@Auth</span>
-						<span class='category-status right'>
-						<span class='label pass'>2</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 2</span>
-							
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Oct 29, 2025 04:25:47 PM</td>
-										<td class='linked' test-id='2'>Memverifikasi pengguna terdaftar dapat berhasil login dengan kredensial valid.</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 29, 2025 04:26:05 PM</td>
-										<td class='linked' test-id='9'>Memverifikasi pesan kesalahan muncul saat pengguna memasukkan kredensial tidak valid.</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@resetpencarianuser</span>
-						<span class='category-status right'>
-						<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Oct 29, 2025 04:27:16 PM</td>
-										<td class='linked' test-id='31'>Mereset kolom pencarian di halaman Management User</td>
+										<td>Oct 30, 2025 12:04:18 AM</td>
+										<td class='linked' test-id='16'>Mereset kolom pencarian di halaman Management User</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -878,8 +829,8 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 29, 2025 04:26:21 PM</td>
-										<td class='linked' test-id='17'>Mencari User yang ada di halaman Management User</td>
+										<td>Oct 30, 2025 12:03:23 AM</td>
+										<td class='linked' test-id='2'>Mencari User yang ada di halaman Management User</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -889,40 +840,7 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@filterberdasarkanrole</span>
-						<span class='category-status right'>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Oct 29, 2025 04:27:42 PM</td>
-										<td class='linked' test-id='38'>Memfilter user berdasarkan role di halaman Management User</td>
-										<td><span class='test-status Fail'>Fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@tidakmencariuser</span>
+						<span class='category-name'>@buttonlogout</span>
 						<span class='category-status right'>
 						<span class='label pass'>1</span>
 						</span>
@@ -944,8 +862,8 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 29, 2025 04:26:48 PM</td>
-										<td class='linked' test-id='24'>Mencari User yang tidak ada di halaman Management User</td>
+										<td>Oct 30, 2025 12:05:16 AM</td>
+										<td class='linked' test-id='31'>Logout dari halaman Management User</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -955,14 +873,83 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@PositiveTest</span>
+						<span class='category-name'>@SmokeTest</span>
 						<span class='category-status right'>
-						<span class='label pass'>2</span>
+						<span class='label pass'>6</span>
+						<span class='label fail'>2</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 2</span>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 6</span>
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 2</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:03:23 AM</td>
+										<td class='linked' test-id='2'>Mencari User yang ada di halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Oct 30, 2025 12:03:50 AM</td>
+										<td class='linked' test-id='9'>Mencari User yang tidak ada di halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Oct 30, 2025 12:04:18 AM</td>
+										<td class='linked' test-id='16'>Mereset kolom pencarian di halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Oct 30, 2025 12:04:46 AM</td>
+										<td class='linked' test-id='23'>Memfilter user berdasarkan role di halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Oct 30, 2025 12:05:16 AM</td>
+										<td class='linked' test-id='31'>Logout dari halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Oct 30, 2025 12:05:52 AM</td>
+										<td class='linked' test-id='37'>Mengakses fitur filter di halaman Management User</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Oct 30, 2025 12:06:20 AM</td>
+										<td class='linked' test-id='43'>Memfilter user berdasarkan unit di halaman Management User (contoh : Unit = Jakarta )</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Oct 30, 2025 12:06:51 AM</td>
+										<td class='linked' test-id='50'>Memfilter user berdasarkan filter di halaman Management User (contoh : Tipe Karyawan = Mitra )</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@negativeSearch</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
 							
 							
 						</div>
@@ -977,13 +964,173 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 29, 2025 04:25:47 PM</td>
-										<td class='linked' test-id='2'>Memverifikasi pengguna terdaftar dapat berhasil login dengan kredensial valid.</td>
+										<td>Oct 30, 2025 12:03:50 AM</td>
+										<td class='linked' test-id='9'>Mencari User yang tidak ada di halaman Management User</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@filterberdasarkanunit</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
 									<tr>
-										<td>Oct 29, 2025 04:28:12 PM</td>
-										<td class='linked' test-id='47'>Memverifikasi pengguna terdaftar dapat berhasil logout dari aplikasi.</td>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:06:20 AM</td>
+										<td class='linked' test-id='43'>Memfilter user berdasarkan unit di halaman Management User (contoh : Unit = Jakarta )</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@buttonrole</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:04:46 AM</td>
+										<td class='linked' test-id='23'>Memfilter user berdasarkan role di halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@filter</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:05:52 AM</td>
+										<td class='linked' test-id='37'>Mengakses fitur filter di halaman Management User</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@resetpencarianuser</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:04:18 AM</td>
+										<td class='linked' test-id='16'>Mereset kolom pencarian di halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@comboboxunit</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:06:20 AM</td>
+										<td class='linked' test-id='43'>Memfilter user berdasarkan unit di halaman Management User (contoh : Unit = Jakarta )</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -1015,8 +1162,41 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 29, 2025 04:26:21 PM</td>
-										<td class='linked' test-id='17'>Mencari User yang ada di halaman Management User</td>
+										<td>Oct 30, 2025 12:03:23 AM</td>
+										<td class='linked' test-id='2'>Mencari User yang ada di halaman Management User</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@filterberdasarkanrole</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 30, 2025 12:04:46 AM</td>
+										<td class='linked' test-id='23'>Memfilter user berdasarkan role di halaman Management User</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -1054,7 +1234,7 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 				<li class='exception displayed active'>
 					<div class='exception-heading'>
 						<span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
 					</div>
 					<div class='exception-content hide'>
 						<div class='exception-tests'>
@@ -1068,17 +1248,17 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 29, 2025 04:28:05 PM</td>
-										<td class='linked' test-id='44'>Then Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User</td>
+										<td>Oct 30, 2025 12:06:13 AM</td>
+										<td class='linked' test-id='41'>Then Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User</td>
 										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)='Dark Tomcat']
+											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='mui-2'and text()]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7048bae5-2a22-451e-b3e9-30c5e4217f65, findElement {value=//*[normalize-space(.)='Dark Tomcat'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
+Command: [adfc838e-b7f8-4d9f-b046-e847e6cbd96a, findElement {value=//*[@id='mui-2'and text()], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: adfc838e-b7f8-4d9f-b046-e847e6cbd96a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1095,8 +1275,41 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_role(ButtonTest.java:95)
-	at ?.Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/test1-management.feature:35)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_Kelompok(ButtonTest.java:130)
+	at ?.Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:49)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Oct 30, 2025 12:07:22 AM</td>
+										<td class='linked' test-id='56'>Then Sistem menampilkan data user sesuai dengan filter yang dipilih pada tabel di halaman Management User</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='mui-2'and text()]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [adfc838e-b7f8-4d9f-b046-e847e6cbd96a, findElement {value=//*[@id='mui-2'and text()], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: adfc838e-b7f8-4d9f-b046-e847e6cbd96a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_Kelompok(ButtonTest.java:130)
+	at ?.Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:49)
 </textarea>
 										</td>
 									</tr>
@@ -1122,37 +1335,37 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>7</div>
+					<div class='panel-lead'>8</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>28</div>
+					<div class='panel-lead'>32</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 29, 2025 04:25:46 PM</div>
+					<div class='panel-lead'>Oct 30, 2025 12:03:22 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 29, 2025 04:28:37 PM</div>
+			 		<div class='panel-lead'>Oct 30, 2025 12:07:28 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 02 51.256</div>
+					<div class='panel-lead'>00 04 05.414</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1188,34 +1401,7 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@negativeSearch</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-						<tr>
-							<td>@buttonreset</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-						<tr>
-							<td>@SmokeTest</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-						<tr>
-							<td>@buttonrole</td>
+							<td>@filterSearch</td>
 							<td>0</td>
 							<td>1</td>
 							<td>0</td>
@@ -1224,7 +1410,16 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 							</td>
 						</tr>
 						<tr>
-							<td>@Negativetest</td>
+							<td>@buttonfilter</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@logoutdarihalamanmanagementuser</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -1233,17 +1428,8 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 							</td>
 						</tr>
 						<tr>
-							<td>@Testtombol</td>
-							<td>3</td>
+							<td>@tidakmencariuser</td>
 							<td>1</td>
-							<td>0</td>
-							<td>
-									75%
-							</td>
-						</tr>
-						<tr>
-							<td>@Auth</td>
-							<td>2</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -1251,7 +1437,16 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 							</td>
 						</tr>
 						<tr>
-							<td>@resetpencarianuser</td>
+							<td>@filterberdasarkanfilterdanmencariuser</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@buttonreset</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -1269,7 +1464,52 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 							</td>
 						</tr>
 						<tr>
-							<td>@filterberdasarkanrole</td>
+							<td>@buttonlogout</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@SmokeTest</td>
+							<td>6</td>
+							<td>2</td>
+							<td>0</td>
+							<td>
+									75%
+							</td>
+						</tr>
+						<tr>
+							<td>@negativeSearch</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@filterberdasarkanunit</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@buttonrole</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@filter</td>
 							<td>0</td>
 							<td>1</td>
 							<td>0</td>
@@ -1278,7 +1518,7 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 							</td>
 						</tr>
 						<tr>
-							<td>@tidakmencariuser</td>
+							<td>@resetpencarianuser</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -1287,8 +1527,8 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 							</td>
 						</tr>
 						<tr>
-							<td>@PositiveTest</td>
-							<td>2</td>
+							<td>@comboboxunit</td>
+							<td>1</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -1297,6 +1537,15 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 						</tr>
 						<tr>
 							<td>@mencariuser</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@filterberdasarkanrole</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -1315,24 +1564,24 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 3,
-				passParent: 2,
+                parentCount: 1,
+				passParent: 0,
 				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				childCount: 7,
+				childCount: 8,
 				passChild: 6,
-				failChild: 1,
+				failChild: 2,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				grandChildCount: 28,
-				passGrandChild: 27,
-				failGrandChild: 1,
+				grandChildCount: 32,
+				passGrandChild: 30,
+				failGrandChild: 2,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
@@ -1343,7 +1592,7 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 		
 		<script>
 			var timeline = {
-			        "login feature untuk pengguna terdaftar dan pendaftaran akun baru.":34.057,"Test tombol pada halaman Management User":110.861,"logout feature untuk pengguna terdaftar.":25.305
+			        "Managmenent User feature untuk admin.":244.47
 			};
 		</script>
 		

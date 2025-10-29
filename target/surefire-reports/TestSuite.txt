@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 173.0 s <<< FAILURE! -- in TestSuite
-com.juaracoding.testing.runners.RunnerTest.runScenario["Memfilter user berdasarkan role di halaman Management User", "Test tombol pada halaman Management User"](6) -- Time elapsed: 30.19 s <<< FAILURE!
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 247.1 s <<< FAILURE! -- in TestSuite
+com.juaracoding.testing.runners.RunnerTest.runScenario["Mengakses fitur filter di halaman Management User", "Managmenent User feature untuk admin."](6) -- Time elapsed: 27.66 s <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //*[normalize-space(.)='Dark Tomcat']
+Unable to locate element: //*[@id='mui-2'and text()]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7048bae5-2a22-451e-b3e9-30c5e4217f65, findElement {value=//*[normalize-space(.)='Dark Tomcat'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
+Command: [adfc838e-b7f8-4d9f-b046-e847e6cbd96a, findElement {value=//*[@id='mui-2'and text()], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: adfc838e-b7f8-4d9f-b046-e847e6cbd96a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -28,6 +28,35 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_role(ButtonTest.java:95)
-	at ✽.Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/test1-management.feature:35)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_Kelompok(ButtonTest.java:130)
+	at ✽.Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:49)
+
+com.juaracoding.testing.runners.RunnerTest.runScenario["Memfilter user berdasarkan filter di halaman Management User (contoh : Tipe Karyawan = Mitra )", "Managmenent User feature untuk admin."](8) -- Time elapsed: 36.96 s <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[normalize-space(.)='123']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb, findElement {value=//*[normalize-space(.)='123'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28312, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_kelompok(ButtonTest.java:179)
+	at ✽.Sistem menampilkan data user sesuai dengan filter yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:66)
 

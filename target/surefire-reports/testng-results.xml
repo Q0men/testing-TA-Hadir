@@ -1,63 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-29T16:25:45 WIB" name="Hadir Test Suite" finished-at="2025-10-29T16:28:38 WIB" duration-ms="172144">
+  <suite started-at="2025-10-30T00:03:22 WIB" name="Hadir Test Suite" finished-at="2025-10-30T00:07:28 WIB" duration-ms="246269">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-10-29T16:25:45 WIB" name="Functional Test" finished-at="2025-10-29T16:28:38 WIB" duration-ms="172144">
+    <test started-at="2025-10-30T00:03:22 WIB" name="Functional Test" finished-at="2025-10-30T00:07:28 WIB" duration-ms="246269">
       <class name="com.juaracoding.testing.runners.RunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:25:45 WIB" name="setUpClass" finished-at="2025-10-29T16:25:47 WIB" duration-ms="1060" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:03:22 WIB" name="setUpClass" finished-at="2025-10-30T00:03:23 WIB" duration-ms="1012" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a0c5be]]>
+                <![CDATA[org.testng.TestRunner@25ad25f5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:25:47 WIB" name="beforeClass" finished-at="2025-10-29T16:25:47 WIB" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:03:23 WIB" name="beforeClass" finished-at="2025-10-30T00:03:23 WIB" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:25:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:26:05 WIB" duration-ms="18776" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Memverifikasi pengguna terdaftar dapat berhasil login dengan kredensial valid."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["login feature untuk pengguna terdaftar dan pendaftaran akun baru."]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:26:05 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:26:21 WIB" duration-ms="15563" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Memverifikasi pesan kesalahan muncul saat pengguna memasukkan kredensial tidak valid."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["login feature untuk pengguna terdaftar dan pendaftaran akun baru."]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:26:21 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:26:48 WIB" duration-ms="27596" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:03:23 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-30T00:03:50 WIB" duration-ms="27404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,14 +34,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Test tombol pada halaman Management User"]]>
+                <![CDATA["Managmenent User feature untuk admin."]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:26:48 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:27:16 WIB" duration-ms="27506" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:03:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-30T00:04:18 WIB" duration-ms="27542" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,14 +50,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Test tombol pada halaman Management User"]]>
+                <![CDATA["Managmenent User feature untuk admin."]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:27:16 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:27:42 WIB" duration-ms="25587" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:04:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-30T00:04:46 WIB" duration-ms="28077" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,14 +66,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Test tombol pada halaman Management User"]]>
+                <![CDATA["Managmenent User feature untuk admin."]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:27:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:28:12 WIB" duration-ms="30189" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:04:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-30T00:05:16 WIB" duration-ms="30404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,30 +82,62 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Test tombol pada halaman Management User"]]>
+                <![CDATA["Managmenent User feature untuk admin."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:05:16 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-30T00:05:52 WIB" duration-ms="35429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout dari halaman Management User"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Managmenent User feature untuk admin."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:05:52 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-30T00:06:20 WIB" duration-ms="27649" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Mengakses fitur filter di halaman Management User"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Managmenent User feature untuk admin."]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //*[normalize-space(.)='Dark Tomcat']
+              <![CDATA[Unable to locate element: //*[@id='mui-2'and text()]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7048bae5-2a22-451e-b3e9-30c5e4217f65, findElement {value=//*[normalize-space(.)='Dark Tomcat'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65]]>
+Command: [adfc838e-b7f8-4d9f-b046-e847e6cbd96a, findElement {value=//*[@id='mui-2'and text()], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: adfc838e-b7f8-4d9f-b046-e847e6cbd96a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)='Dark Tomcat']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='mui-2'and text()]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7048bae5-2a22-451e-b3e9-30c5e4217f65, findElement {value=//*[normalize-space(.)='Dark Tomcat'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
+Command: [adfc838e-b7f8-4d9f-b046-e847e6cbd96a, findElement {value=//*[@id='mui-2'and text()], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: adfc838e-b7f8-4d9f-b046-e847e6cbd96a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -154,31 +154,88 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_role(ButtonTest.java:95)
-at ✽.Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/test1-management.feature:35)
+at com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_Kelompok(ButtonTest.java:130)
+at ✽.Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:49)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:28:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-29T16:28:37 WIB" duration-ms="25308" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:06:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-30T00:06:51 WIB" duration-ms="31233" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Memverifikasi pengguna terdaftar dapat berhasil logout dari aplikasi."]]>
+                <![CDATA["Memfilter user berdasarkan unit di halaman Management User (contoh : Unit = Jakarta )"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["logout feature untuk pengguna terdaftar."]]>
+                <![CDATA["Managmenent User feature untuk admin."]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-29T16:28:37 WIB" name="tearDownClass" finished-at="2025-10-29T16:28:38 WIB" duration-ms="508" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:06:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-30T00:07:28 WIB" duration-ms="36961" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Memfilter user berdasarkan filter di halaman Management User (contoh : Tipe Karyawan = Mitra )"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Managmenent User feature untuk admin."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[normalize-space(.)='123']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb, findElement {value=//*[normalize-space(.)='123'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28312, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)='123']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb, findElement {value=//*[normalize-space(.)='123'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28312, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_kelompok(ButtonTest.java:179)
+at ✽.Sistem menampilkan data user sesuai dengan filter yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.juaracoding.testing.runners.RunnerTest@776aec5c]" started-at="2025-10-30T00:07:28 WIB" name="tearDownClass" finished-at="2025-10-30T00:07:28 WIB" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
