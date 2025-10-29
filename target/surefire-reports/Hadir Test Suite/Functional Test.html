@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Functional Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 29 16:25:45 WIB 2025</td>
+<td>Started on:</td><td>Thu Oct 30 00:03:22 WIB 2025</td>
 </tr>
-<tr><td>Total time:</td><td>172 seconds (172144 ms)</td>
+<tr><td>Total time:</td><td>246 seconds (246269 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Memfilter user berdasarkan role di halaman Management User", "Test tombol pada halaman Management User"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)=&apos;Dark Tomcat&apos;]
+<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Mengakses fitur filter di halaman Management User", "Managmenent User feature untuk admin."</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;mui-2&apos;and text()]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7048bae5-2a22-451e-b3e9-30c5e4217f65, findElement {value=//*[normalize-space(.)=&apos;Dark Tomcat&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
+Command: [adfc838e-b7f8-4d9f-b046-e847e6cbd96a, findElement {value=//*[@id=&apos;mui-2&apos;and text()], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: adfc838e-b7f8-4d9f-b046-e847e6cbd96a
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -96,17 +96,17 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_role(ButtonTest.java:95)
-	at ?.Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/test1-management.feature:35)
-... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace825605925", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace825605925'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)=&apos;Dark Tomcat&apos;]
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_Kelompok(ButtonTest.java:130)
+	at ?.Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:49)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace733693146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace733693146'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;mui-2&apos;and text()]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7048bae5-2a22-451e-b3e9-30c5e4217f65, findElement {value=//*[normalize-space(.)=&apos;Dark Tomcat&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
+Command: [adfc838e-b7f8-4d9f-b046-e847e6cbd96a, findElement {value=//*[@id=&apos;mui-2&apos;and text()], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28260, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: adfc838e-b7f8-4d9f-b046-e847e6cbd96a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -123,10 +123,63 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_role(ButtonTest.java:95)
-	at ?.Sistem menampilkan data user sesuai dengan role yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/test1-management.feature:35)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampilkan_informasi_Kelompok(ButtonTest.java:130)
+	at ?.Sistem menampilkan opsi filter untuk mengelola tampilan data user di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:49)
 </pre></div></td>
-<td>30</td>
+<td>27</td>
+<td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
+<tr>
+<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Memfilter user berdasarkan filter di halaman Management User (contoh : Tipe Karyawan = Mitra )", "Managmenent User feature untuk admin."</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)=&apos;123&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb, findElement {value=//*[normalize-space(.)=&apos;123&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28312, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_kelompok(ButtonTest.java:179)
+	at ?.Sistem menampilkan data user sesuai dengan filter yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:66)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1312250810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1312250810'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[normalize-space(.)=&apos;123&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb, findElement {value=//*[normalize-space(.)=&apos;123&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0, moz:accessibilityChecks: false, moz:buildID: 20251009125714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28312, moz:profile: C:\Users\tataq\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1a28ab92-b0c3-4c6f-94f2-fc8aca0744eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.juaracoding.testing.definitions.ButtonTest.sistem_menampikan_data_sesuai_kelompok(ButtonTest.java:179)
+	at ?.Sistem menampilkan data user sesuai dengan filter yang dipilih pada tabel di halaman Management User(file:///C:/Users/tataq/OneDrive/Dokumen/Bootcamp/SQA24/testing-TA-Hadir/src/test/resources/features/ManagementUser.feature:66)
+</pre></div></td>
+<td>36</td>
 <td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -138,34 +191,34 @@ Session ID: 7048bae5-2a22-451e-b3e9-30c5e4217f65
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Mencari User yang ada di halaman Management User", "Test tombol pada halaman Management User"</td>
+<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Mencari User yang ada di halaman Management User", "Managmenent User feature untuk admin."</td>
 <td></td>
 <td>27</td>
 <td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
 <tr>
-<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Mereset kolom pencarian di halaman Management User", "Test tombol pada halaman Management User"</td>
-<td></td>
-<td>25</td>
-<td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
-<tr>
-<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Memverifikasi pengguna terdaftar dapat berhasil login dengan kredensial valid.", "login feature untuk pengguna terdaftar dan pendaftaran akun baru."</td>
-<td></td>
-<td>18</td>
-<td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
-<tr>
-<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Memverifikasi pesan kesalahan muncul saat pengguna memasukkan kredensial tidak valid.", "login feature untuk pengguna terdaftar dan pendaftaran akun baru."</td>
-<td></td>
-<td>15</td>
-<td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
-<tr>
-<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Mencari User yang tidak ada di halaman Management User", "Test tombol pada halaman Management User"</td>
+<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Mencari User yang tidak ada di halaman Management User", "Managmenent User feature untuk admin."</td>
 <td></td>
 <td>27</td>
 <td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
 <tr>
-<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Memverifikasi pengguna terdaftar dapat berhasil logout dari aplikasi.", "logout feature untuk pengguna terdaftar."</td>
+<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logout dari halaman Management User", "Managmenent User feature untuk admin."</td>
 <td></td>
-<td>25</td>
+<td>35</td>
+<td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
+<tr>
+<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Mereset kolom pencarian di halaman Management User", "Managmenent User feature untuk admin."</td>
+<td></td>
+<td>28</td>
+<td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
+<tr>
+<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Memfilter user berdasarkan unit di halaman Management User (contoh : Unit = Jakarta )", "Managmenent User feature untuk admin."</td>
+<td></td>
+<td>31</td>
+<td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
+<tr>
+<td title='com.juaracoding.testing.runners.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.juaracoding.testing.runners.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Memfilter user berdasarkan role di halaman Management User", "Managmenent User feature untuk admin."</td>
+<td></td>
+<td>30</td>
 <td>com.juaracoding.testing.runners.RunnerTest@776aec5c</td></tr>
 </table><p>
 </body>

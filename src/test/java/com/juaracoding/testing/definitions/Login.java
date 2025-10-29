@@ -58,4 +58,19 @@ public void pesanKesalahanDitampilkan() throws InterruptedException {
   String expected = "Email atau password salah";
   Assert.assertEquals(actual, expected);
 }
+
+// --- Skenario 3: Login Gagal karena kosong ---
+@When("Biarkan kolom email atau password kosong.")
+public void biarkanKolomKosong() {
+  loginPage.setUsernameBy("");
+  loginPage.setPasswordBy("");
+}
+@Then("Pesan kesalahan 'Kolom wajib diisi' ditampilkan.")
+public void pesanKesalahanKolomWajibDiisiDitampilkan() throws InterruptedException {
+  Thread.sleep(3000);
+  String actual = driverContext.driver.findElement(By.xpath(
+    "//*[@role='alert' and normalize-space(.)='Akun tidak ditemukan']")).getText();
+  String expected = "Akun tidak ditemukan";
+  Assert.assertEquals(actual, expected);
+}
 }

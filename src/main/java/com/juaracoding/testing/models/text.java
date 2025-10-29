@@ -1,6 +1,6 @@
 package com.juaracoding.testing.models;
 
-public class text {
+public class Text {
     private String username;
     private String password;
     private String user;
